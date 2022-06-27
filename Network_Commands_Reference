@@ -18,7 +18,9 @@ RouterA#telnet 10.0.0.144 23
 Nslookup
 FUNCTION: look up info for a selected hostname 
 nslookup 
-> rockhard.com 
+> set [type=ns]        #prompt is moved above the first prompt 'rockhard.com'
+> rockhard.com         #prompt performed first
+
 
 
 Show interfaces
