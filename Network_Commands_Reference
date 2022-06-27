@@ -1,0 +1,48 @@
+In the Cisco IOS user interface
+
+Ping [destination IP or URL address]
+FUNCTION: verify if the computer can connect over the network to another computer or network device. (host can be reached)
+RouterA#ping 10.0.0.144
+RouterA#ping -t 10.0.0.144 (continuous requests) 
+
+
+Traceroute [destination IP or URL address]
+FUNCTION: used to trace the path between the sender and the destination host.
+for identifying potential link bottlenecks throughout the transmission path
+RouterA#traceroute 10.0.0.144 
+
+Telnet [domain name or IP] [port number]
+FUNCTION: verify TCP stack and application layer software between source and destination stations
+RouterA#telnet 10.0.0.144 23
+
+Nslookup
+FUNCTION: look up info for a selected hostname 
+nslookup 
+> rockhard.com 
+
+
+Show interfaces
+FUNCTION: reveal layer 1 and 2 problems, MAC, IP, and stats concerning the specific interface issued in the command  
+RouterA#show interfaces fastEthernet 0 
+
+OUTPUTS:
+FastEthernet0 is up, line protocol is up: Both the Physical and Data Link layers on the interface are functioning correctly.
+FastEthernet0 is down, line protocol is down: This output indicates a physical interface problem. For example, the cable on this interface or on the remote interface is disconnected.
+FastEthernet0 is up, line protocol is down: In this case, Physical layer is operational. The line protocol being down indicates a clocking or framing problem. Probable reasons for this are encapsulation and clock rate mismatches.
+Ethernet0 is administratively down, line protocol is down: This output indicates that a local interface has been manually shut down using the shutdown command.
+
+Show ip interface
+FUNCTION: layer 3 config details (IP address and mask configured on a given interface, whether an access list is applied on the interface, & basic IP information).
+RouterA#show ip interface
+
+Show ip route
+FUNCTION: find detailed information regarding the routes configured on the router (ip routing issues)
+RouterA#show ip route
+
+Show running-config
+FUNCTION: find out the whole configuration your Cisco devices use while operating
+RouterA#show running-config
+
+Show startup-config
+FUNCTION: see the configuration commands that will be loaded to your device the next time it reboots and compare it with your running configuration in order to identify possible unconformities.
+RouterA#show startup-config
