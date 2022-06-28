@@ -1,56 +1,82 @@
-CCNP: ENCOR Core Exam + ENWLSD Concentration Exam [pre-req for core]
+CCNP: ENCOR Core Exam +  Concentration Exam [pre-req for core]
 
-Concentration: Cisco Certified Specialist - Enterprise Wireless Design
-Exam: Designing Cisco Enterprise Wireless Networks v1.0 (300-425 ENWLSD)
+Concentration: Implementing Cisco SD-WAN Solutions (300-415 ENSDWI) 
 
-Topics:
-25% 1.0 Wireless Site Survey
-1.1 Collect design requirements and evaluate constraints
-1.1.a Client density
-1.1.b Real time applications
-1.1.c AP type
-1.1.d Deployment type (data, location, voice, video)
-1.1.e Security
-1.2 Describe material attenuation and its effect on wireless design
-1.3 Perform and analyze a Layer 1 site survey
-1.4 Perform a pre-deployment site survey
-1.5 Perform a post deployment site survey
-1.6 Perform a predictive site survey
-1.7 Utilize planning tools and evaluate key network metrics (Ekahau, AirMagnet, PI, Chanalyzer, Spectrum Analyzer)
+20% 1.0 Architecture
+1.1 Describe Cisco SD-WAN architecture and components
+1.1.a Orchestration plane (vBond, NAT)
+1.1.b Management plane (vManage)
+1.1.c Control plane (vSmart, OMP)
+1.1.d Data plane (WAN Edge)
+1.1.d (i) TLOC
+1.1.d (ii) IPsec and GRE
+1.1.d (iii) vRoute
+1.1.d (iv) BFD
+1.2 Describe Cisco SD-WAN Edge platforms and capabilities
+1.3 Describe Cisco SD-WAN Cloud OnRamp
+1.3.a SaaS
+1.3.b IaaS
+1.3.c Colocation
 
-*****30% 2.0 Wired and Wireless Infrastructure***** 
-2.1 Determine physical infrastructure requirements such as AP power, cabling, switch port capacity, mounting, and grounding
-2.2 Determine logical infrastructure requirements such as WLC/AP licensing requirements
-based on the type of wireless architecture
-2.3 Design radio management
-2.3.a RRM
-2.3.b RF profiles
-2.3.c RxSOP
-2.4 Apply design requirements for these types of wireless networks
-2.4.a Data
-2.4.b Voice and video
-2.4.c Location
-2.4.d Hyperlocation
-2.5 Design high-density wireless networks and their associated components (campus, lecture halls, conference rooms)
-2.6 Design wireless bridging (mesh)
-2.6.a Modes of operation
-2.6.b Ethernet bridging
-2.6.c WGB and roaming
+15% 2.0 Controller Deployment
+2.1 Describe controller cloud deployment
+2.2 Describe controller on-premises deployment
+2.2.a Hosting platform (KVM and Hypervisor)
+2.2.b Installing controllers
+2.2.c Scalability and redundancy
+2.3 Configure certificates and device lists
+2.4 Troubleshoot control plane connectivity between controllers
 
-25% 3.0 Mobility
-3.1 Design mobility groups based on mobility roles
-3.2 Optimize client roaming
-3.3 Validate mobility tunneling for data and control path
+20% 3.0 Router Deployment
+3.1 Describe WAN Edge deployment
+3.1.a On-boarding
+3.1.b Orchestration with zero-touch provisioning and plug-and-play
+3.1.c Data center and regional hub deployments
+3.2 Configure Cisco SD-WAN data plane
+3.2.a Circuit termination and TLOC-extension
+3.2.b Dynamic tunnels
+3.2.c Underlay-overlay connectivity
+3.3 Configure OMP
+3.4 Configure TLOCs
+3.5 Configure CLI and vManage feature configuration templates
+3.5.a VRRP
+3.5.b OSPF
+3.5.c BGP
+3.5.d EIGRP
+3.6 Describe multicast support in Cisco SD-WAN
 
-20% 4.0 WLAN High Availability
-4.1 Design high availability for controllers
-4.1.a Network availability through LAG
-4.1.b Stateful Switchover (SSO)
-4.1.c Anchor controller priority and redundancy
-4.2 Design high availability for APs
-4.2.a AP prioritization
-4.2.b Fall-back (assigning primary, secondary, and tertiary)
+20% 4.0 Policies
+4.1 Configure control policies
+4.2 Configure data policies
+4.3 Configure end-to-end segmentation
+4.3.a VPN segmentation
+4.3.b Topologies
+4.4 Configure Cisco SD-WAN application-aware routing
+4.5 Configure direct Internet access
+15% 5.0 Security and Quality of Service
+5.1 Configure service insertion
+5.2 Describe Cisco SD-WAN security features
+5.2.a. Application-aware enterprise firewall
+5.2.b IPS
+5.2.c URL filtering
+5.2.d AMP
+5.2.e SSL and TLS proxy
+5.3 Describe Cloud security integration
+5.3.a. DNS security
+5.3.b. Secure Internet Gateway (SIG)
+5.4 Configure QoS treatment on WAN Edge routers
+5.4.a Scheduling
+5.4.b Queuing
+5.4.c Shaping
+5.4.d Policing
+5.4.e Marking
+5.4.f Per-tunnel and adaptive QoS
 
+10% 6.0 Management and Operations
+6.1 Describe authentication, monitoring, and reporting from vManage
+6.2 Configure authentication, monitoring, and reporting
+6.3 Describe REST API monitoring
+6.4 Describe software image management from vManage 
 
 
 Core: 
