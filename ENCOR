@@ -24,7 +24,7 @@ based, cloud, remote branch)
 1.7.b MAC address table and TCAM
 2019 Public. 2
 1.7.c FIB vs. RIB
-Cisco Systems, Inc. This document is Cisco Page
+
 10% 2.0 Virtualization
 2.1 Describe device virtualization technologies
 2.1.a Hypervisor type 1 and 2
@@ -36,6 +36,7 @@ Cisco Systems, Inc. This document is Cisco Page
 2.3 Describe network virtualization concepts
 2.3.a LISP
 2.3.b VXLAN
+
 30% 3.0 Infrastructure
 3.1 Layer 2
 3.1.a Troubleshoot static and dynamic 802.1q trunking protocols
@@ -44,9 +45,8 @@ Cisco Systems, Inc. This document is Cisco Page
 3.2 Layer 3
 3.2.a Compare routing concepts of EIGRP and OSPF (advanced distance vector vs. link
 state, load balancing, path selection, path operations, metrics)
-3.2.b Configure and verify simple OSPF environments, including multiple normal
-areas, summarization, and filtering (neighbor adjacency, point-to-point and
-broadcast network types, and passive interface)
+3.2.b Configure and verify simple OSPF environments, including multiple normal 
+areas, summarization, and filtering (neighbor adjacency, point-to-point and broadcast network types, and passive interface)
 2019 Public. 3
 3.2.c Configure and verify eBGP between directly connected neighbors (best path
 selection algorithm and neighbor relationships)
