@@ -1,4 +1,4 @@
-CCNP: ENCOR Core Exam +  Concentration Exam [pre-req for core]
+CCNP: Concentration Exam 
 
 Concentration: Implementing Cisco SD-WAN Solutions (300-415 ENSDWI) 
 
@@ -53,6 +53,7 @@ Concentration: Implementing Cisco SD-WAN Solutions (300-415 ENSDWI)
 4.3.b Topologies
 4.4 Configure Cisco SD-WAN application-aware routing
 4.5 Configure direct Internet access
+
 15% 5.0 Security and Quality of Service
 5.1 Configure service insertion
 5.2 Describe Cisco SD-WAN security features
@@ -78,8 +79,9 @@ Concentration: Implementing Cisco SD-WAN Solutions (300-415 ENSDWI)
 6.3 Describe REST API monitoring
 6.4 Describe software image management from vManage 
 
-
-Core: 
-Exam: 350-401 ENCOR:  
-
-
+Understand how to use Cisco SD-WAN to:
+> Establish a transport-independent WAN for lower cost and higher flexibility
+> Meet Service Level Agreements (SLAs) for business-critical and real-time applications
+> Provide secure end-to-end segmentation for protecting critical enterprise compute resources
+> Extend seamlessly into the public cloud
+> Optimize the user experience for Software-as-a-Service (SaaS) applications
